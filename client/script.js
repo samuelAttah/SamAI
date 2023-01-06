@@ -84,7 +84,9 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch("http://localhost:3500/", {
+  //http://localhost:3500/
+
+  const response = await fetch("https://sam-ai-n6dt.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
